@@ -1,4 +1,10 @@
 <div class="wrapper">
-    <h1>{{hobby.title | titlecase}}</h1>
-    <p>{{hobby.description}}</p>
+    <div class="info">
+        <h1>{{hobby.title | titlecase}}</h1>
+        <p>{{hobby.description}}</p>
+    </div>
+    <div class="gallery">
+        <img src="{{hobby.examplePicture}}" alt="{{hobby.title}}">
+        <img src="{{hobby.personPicture}}" alt="One of fans">
+    </div>
 </div>
